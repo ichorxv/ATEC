@@ -3,7 +3,7 @@
 #Trabalho: Ex 4 - Funções
 
 
-# EXERCiCIOS – ESTRUTURA SEQUENCIAL (Ex1)
+#Ex1
 
 def ex1_1():
     print("ola mundo!")
@@ -81,7 +81,7 @@ def ex1_12():
     else:
         print("Por favor insira um numero entre 1 e 10.")
 
-# EXERCiCIOS – ESTRUTURA DE DECISÃO (Ex2)
+# Ex2
 
 def ex2_1():
     num1 = float(input("Insira o primeiro numero: "))
@@ -188,7 +188,7 @@ def ex2_11():
     print(f"Valor do aumento: Euros€ {aumento:.2f}")
     print(f"Novo salario: Euros€ {novo_salario:.2f}")
 
-# EXERCiCIOS – ESTRUTURA DE REPETIÇÃO (Ex3)
+#Ex3
 
 def ex3_1():
     while True:
