@@ -7,7 +7,8 @@ class Pratos():
         self.nome = nome
         self.bebidas = bebidas
         self.entradas = entradas
-    
-        entradas=["Cheese Rolls", "Asinhas de Frango", "Nachos", "Pão e Manteiga", "Azeitos"]
-        bebidas=["Sangria", "Iced tea", "Refrigerante", "Vinho", "Agua Ardente", "Água (da sanita)"]
-        pratos=["Picanha", "Pizza", "Hamburger (Estilo Americano)", "Tomahawk", "Wagyu Beef", "Maminha"]
+        
+    def listapratos(self):
+        self.entradas=["Cheese Rolls", "Asinhas de Frango", "Nachos", "Pão e Manteiga", "Azeitos"]
+        self.bebidas=["Sangria", "Iced tea", "Refrigerante", "Vinho", "Agua Ardente", "Água (da sanita)"]
+        self.pratos=["Picanha", "Pizza", "Hamburger (Estilo Americano)", "Tomahawk", "Wagyu Beef", "Maminha"]
